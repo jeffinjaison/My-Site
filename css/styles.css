@@ -338,8 +338,14 @@ btn:hover {
 
 }
 
-/* @media (max-width:916px){
-  .intro-h2{
-    font-size: 1rem;
+@media (max-width:599px){
+
+  .intro-container {
+    padding: 16rem 2rem 20rem;
   }
-} */
+
+  .bottom-container {
+    padding: 25px 0 25px 0;
+  }
+
+}
