@@ -63,7 +63,7 @@ hr {
 }
 
 .contact-me {
-  padding: 10.25rem 5rem 8.375rem;
+  padding: 8.25rem 5rem 8.375rem;
 }
 
 /**********************************video**************************************/
@@ -312,7 +312,7 @@ btn:hover {
     font-size: 1.1rem;
   }
 
-  .skill-1, .skill-2, .skill-3{
+  .skill-1, .skill-2, .skill-3, .skill-4{
     font-size: 1.1rem;
   }
 
