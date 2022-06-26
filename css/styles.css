@@ -267,11 +267,11 @@ btn:hover {
 @media (max-width: 640px) {
 
   .contact-h2{
-    font-size: 1.1rem
+    font-size: 1.5rem
   }
 
   .contact-h3{
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .nav-1{
@@ -279,7 +279,7 @@ btn:hover {
   }
 
   .btn{
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   a{
