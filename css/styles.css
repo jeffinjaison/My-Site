@@ -267,11 +267,11 @@ btn:hover {
 @media (max-width: 640px) {
 
   .contact-h2{
-    font-size: 1.8rem
+    font-size: 1.8rem;
   }
 
   .contact-h3{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 
   .nav-1{
@@ -279,7 +279,7 @@ btn:hover {
   }
 
   .btn{
-    font-size: 1.5rem;
+    font-size: 1.325rem;
   }
 
   a{
@@ -291,15 +291,15 @@ btn:hover {
   }
 
   .top-h2{
-    font-size: 1.1rem
+    font-size: 1.1rem;
   }
 
   .intro-h2{
-    font-size: 1.1rem
+    font-size: 1.1rem;
   }
 
   .p-intro{
-    font-size: 1rem
+    font-size: 1rem;
   }
 
   .skills-h2{
