@@ -284,6 +284,10 @@ btn:hover {
     font-size: 1rem;
   }
 
+  .nav-1{
+    padding-top: 16px;
+  }
+
   .btn{
     font-size: 1rem;
   }
@@ -332,20 +336,16 @@ btn:hover {
     padding: 3.125rem 1rem 7rem;
   }
 
-  .contact-me {
-    padding: 16rem 2rem 20rem;
-  }
-
 }
 
 @media (max-width:599px){
 
-  .intro-container {
-    padding: 16rem 2rem 20rem;
+  .nav-1{
+    padding-top: 16px;
   }
 
-  .contact-me {
-    padding: 10rem 2rem 10rem;
+  .intro-container {
+    padding: 16rem 2rem 20rem;
   }
 
 }
