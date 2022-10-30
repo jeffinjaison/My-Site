@@ -68,7 +68,11 @@ hr {
 }
 
 .contact-me {
-  padding: 8.25rem 5rem 8.375rem;
+  padding: 8.25rem 5rem 3.375rem;
+}
+
+.contact-me-2 {
+  padding-bottom: 7.375rem;
 }
 
 /**********************************video**************************************/
@@ -128,7 +132,7 @@ hr {
 /***********************************bottom************************************/
 
 .contact-h2 {
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 
 .contact-h3 {
@@ -137,7 +141,7 @@ hr {
 
 .box-s {
   z-index: 1;
-  padding-top: 5rem;
+  padding-top: 4rem;
 }
 
 .btn {
@@ -149,7 +153,7 @@ btn:hover {
   transition: 2s;
 }
 
-.fa-envelope {
+.fa-envelope, .fa-whatsapp, .fa-paper-plane {
   padding-right: 10px;
 }
 
@@ -264,10 +268,14 @@ btn:hover {
 
 }
 
-@media (max-width: 640px) {
+@media (max-width: 663px) {
+
+  .box-s {
+    padding-top: 0;
+  }
 
   .contact-h2{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 
   .contact-h3{
@@ -279,7 +287,7 @@ btn:hover {
   }
 
   .btn{
-    font-size: 1.325rem;
+    font-size: 1rem;
   }
 
   a{
@@ -319,15 +327,15 @@ btn:hover {
   }
 
   .top-container {
-    padding: 3.125rem 2rem 3.5rem;
+    padding: 4.125rem 2rem 1.5rem;
   }
 
   .middle-container {
-    padding: 3.125rem 1rem 7rem;
+    padding: 3.125rem 1rem 2rem;
   }
 
   .contact-me {
-    padding: 16rem 2rem 20rem;
+    padding: 11rem 2rem 3.375rem;
   }
 
 }
@@ -343,7 +351,25 @@ btn:hover {
   }
 
   .contact-me {
-    padding: 12rem 2rem 16rem;
+    padding: 12rem 2rem 3.375rem;
+  }
+
+}
+
+@media (max-width:401px) {
+  .top-h1 {
+    font-size: 2.1rem;
+  }
+}
+
+@media (max-width:365px) {
+
+  .contact-me-2 {
+    padding-bottom: 4.375rem;
+  }
+
+  .footer-link-3 {
+    margin-top: 54px;
   }
 
 }
